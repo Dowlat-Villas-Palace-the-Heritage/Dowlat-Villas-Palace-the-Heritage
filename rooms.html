@@ -66,7 +66,7 @@
             background-color: white;
         }
 
-        .c-preview a img {
+        .c-preview img {
             width: 100%;
             height: 250px;
         }
@@ -76,15 +76,13 @@
                 display: none;
             }
 
-            .c-preview a img {
+            .c-preview  img {
                 height: 100px;
             }
 
         }
 
-        .c-preview a:hover img {
-            opacity: 0.6;
-        }
+        
 
 		.tab-content {
 			background: #fdfdfd;
@@ -227,7 +225,7 @@
 					Spacious Rooms with Opening to the Gardens and Large Veranda , Surrounded by lush green trees
 					and
 					Mango Orchard. </li>
-				<li><i class=" color fas fa-chevron-right fa-xs"></i> Room Tarriff -&#8377;5000(Inclusive of Meals - For Two Persons)</li>
+				<li><i class=" color fas fa-chevron-right fa-xs"></i> Room Tarriff Heritage suite room -&#8377;6500 (inclusive of breakfast/lunch/dinner)</li>
 			</ul>
 			<div id="content" >
 				<div class="item">
@@ -235,18 +233,19 @@
 						<div class="thumb">
 							<div class="d-flex flex-wrap container  ">
 								<div class="col-md-4 col-sm-4 col-6 text-center c-preview">
-									<a rev="group1"
+									<!-- <a rev="group1"
 										
 										class='cloud-zoom' href="images/rooms/suite-rooms1.jpg"
 										data-lightbox="example-1"><img src="images/rooms/suite-rooms1.jpg"
-											alt="image-1" /></a>
+											alt="image-1" /></a> -->
+										<img src="images/rooms/suite-rooms1.jpg" onclick="onClick(this)" class="modal-hover-opacity">
+
+
 								</div>
 								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
-									<a rev="group1"
-										class='cloud-zoom' href="images/rooms/suite-rooms2.jpg"
-										data-lightbox="example-1"><img src="images/rooms/suite-rooms2.jpg"
-											alt="image-2" /></a>
-								</div>
+									<img src="images/rooms/suite-rooms2.jpg" onclick="onClick(this)" class="modal-hover-opacity">
+
+									</div>
 								<!-- <div class="col-md-4 col-sm-4  col-6  text-center c-preview">
 									<a rev="group1"
 										class='cloud-zoom' href="images/rooms/3.JPG" data-lightbox="example-1"><img
@@ -263,15 +262,15 @@
 											src="images/rooms/5.JPG" alt="image-5" /></a>
 								</div> -->
 								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
-									<a rev="group1"
-										class='cloud-zoom' href="images/rooms/6.JPG" data-lightbox="example-1"><img
-											 src="images/rooms/6.JPG" alt="image-6" /></a>
+
+									<img src="images/rooms/6.JPG" onclick="onClick(this)" class="modal-hover-opacity">
+									
 								</div>
-								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
+								<!-- div class="col-md-4 col-sm-4  col-6  text-center c-preview">
 									<a rev="group1"
 										class='cloud-zoom' href="images/rooms/7.jpg" data-lightbox="example-1"><img
 											 src="images/rooms/7.jpg" alt="image-7" /></a>
-								</div>
+								</div> -->
 								<!-- <div class="col-md-4 col-sm-4  col-6  text-center c-preview">
 									<a rev="group1"
 										class='cloud-zoom' href="images/rooms/8.JPG" data-lightbox="example-1"><img
@@ -292,20 +291,18 @@
 										class='cloud-zoom' href="images/rooms/11.JPG" data-lightbox="example-1"><img
 											 src="images/rooms/11.JPG" alt="image-11" /></a>
 								</div> -->
-								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
+								<!-- <div class="col-md-4 col-sm-4  col-6  text-center c-preview">
 									<a rev="group1"
 										class='cloud-zoom' href="images/rooms/12.JPG" data-lightbox="example-1"><img
 											 src="images/rooms/12.JPG" alt="image-12" /></a>
+								</div> -->
+								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
+									<img src="images/rooms/13.jpg" onclick="onClick(this)" class="modal-hover-opacity">
 								</div>
 								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
-									<a rev="group1"
-										class='cloud-zoom' href="images/rooms/13.jpg" data-lightbox="example-1"><img
-											 src="images/rooms/13.jpg" alt="image-13" /></a>
-								</div>
-								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
-									<a rev="group1"
-										class='cloud-zoom' href="images/rooms/14.jpg" data-lightbox="example-1"><img
-											 src="images/rooms/14.jpg" alt="image-14" /></a>
+
+										<img src="images/rooms/14.jpg" onclick="onClick(this)" class="modal-hover-opacity">
+									
 								</div>
 							</div>
 					
@@ -324,7 +321,7 @@
 					Spacious Rooms with Opening to the Gardens and Large Veranda , Surrounded by lush green trees
 					and
 					Mango Orchard. </li>
-				<li><i class=" color fas fa-chevron-right fa-xs"></i> Room Tarriff -&#8377;4000 (Inclusive of Meals - For Two Persons)</li>
+				<li><i class=" color fas fa-chevron-right fa-xs"></i> Heritage executive room -&#8377;5300/- ( inclusive of breakfast/lunch/dinner)</li>
 			</ul>
 
 			<div id="content">
@@ -333,22 +330,14 @@
 						<div class="thumb">
 							<div class="d-flex flex-wrap container  ">
 								<div class="col-md-4 col-sm-4 col-6 text-center c-preview">
-									<a rev="group1"
-										
-										class='cloud-zoom' href="images/rooms/16.jpg" data-lightbox="example-1"><img
-											src="images/rooms/executive-room1.jpeg" alt="image-1" /></a>
+
+									<img src="images/rooms/16.jpg" onclick="onClick(this)" class="modal-hover-opacity">
 								</div>
 								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
-									<a rev="group1"
-										
-										class='cloud-zoom' href="images/rooms/17.jpg" data-lightbox="example-1"><img
-											src="images/rooms/executive-room2.jpeg" alt="image-2" /></a>
+									<img src="images/rooms/17.jpg" onclick="onClick(this)" class="modal-hover-opacity">
 								</div>
 								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
-									<a rev="group1"
-										
-										class='cloud-zoom' href="images/rooms/2.jpg" data-lightbox="example-1"><img
-											 src="images/rooms/2.jpg" alt="image-3" /></a>
+									<img src="images/rooms/2.jpg" onclick="onClick(this)" class="modal-hover-opacity">
 								</div>
 								<!-- <div class="col-md-4 col-sm-4 col-6 text-center c-preview">
 									<a rev="group1"
@@ -369,17 +358,15 @@
 											 src="images/rooms/5.JPG" alt="image-6" /></a>
 								</div> -->
 								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
-									<a rev="group1"
-										
-										class='cloud-zoom' href="images/rooms/6.JPG" data-lightbox="example-1"><img
-											 src="images/rooms/6.JPG" alt="image-7" /></a>
+									<img src="images/rooms/6.JPG" onclick="onClick(this)" class="modal-hover-opacity">
+									
 								</div>
-								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
+								<!-- <div class="col-md-4 col-sm-4  col-6  text-center c-preview">
 									<a rev="group1"
 										
 										class='cloud-zoom' href="images/rooms/7.jpg" data-lightbox="example-1"><img
 											 src="images/rooms/7.jpg" alt="image-8" /></a>
-								</div>
+								</div> -->
 								<!-- <div class="col-md-4 col-sm-4  col-6  text-center c-preview">
 									<a rev="group1"
 										
@@ -409,12 +396,12 @@
 										class='cloud-zoom' href="images/rooms/12.JPG" data-lightbox="example-1"><img
 											 src="images/rooms/12.JPG" alt="image-13" /></a>
 								</div> -->
-								<div class="col-md-4 col-sm-4  col-6  text-center c-preview">
+								<!-- <div class="col-md-4 col-sm-4  col-6  text-center c-preview">
 									<a rev="group1"
 									
 										class='cloud-zoom' href="images/rooms/13.jpg" data-lightbox="example-1"><img
 											src="images/rooms/13.jpg" alt="image-14" /></a>
-								</div>
+								</div> -->
 							</div>
 
 						</div>
@@ -523,8 +510,20 @@
 		</div>
 	</div>
 
-
-
+<div class="model-room-new">
+	<div id="modal01" class="modal" onclick="this.style.display='none'">
+  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+  <div class="modal-content">
+    <img id="img01" style="max-height:-webkit-fill-available">
+  </div>
+	</div>
+</div>
+<script type="text/javascript">
+	function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+	}
+</script>
 
 
 	<script type="text/javascript" src="js.js"></script>
